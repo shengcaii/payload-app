@@ -1,7 +1,7 @@
 // storage-adapter-import-placeholder
 import {mongooseAdapter} from '@payloadcms/db-mongodb'
 
-import sharp from 'sharp'
+import sharp from 'sharp';
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
