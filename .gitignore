@@ -11,3 +11,25 @@ public/media/
 
 public/robots.txt
 public/sitemap*.xml
+
+# Ignore Docker configuration files
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.*.yml
+
+# Ignore Docker-specific directories
+.docker/
+docker/
+
+# Ignore Docker-related temporary and log files
+*.pid
+*.log
+*.swp
+*.swo
+
+# Ignore build artifacts and caches
+**/__pycache__/
+**/node_modules/
+**/venv/
+tmp/
